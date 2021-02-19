@@ -1,1 +1,1 @@
-# TMI
+# bidirectionalGAN
