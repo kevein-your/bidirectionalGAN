@@ -1,1 +1,1 @@
-# bidirectionalGAN
+# Bidirectional Mapping Generative Adversarial Network
