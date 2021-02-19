@@ -6,7 +6,6 @@ from networks import *
 class BMGAN(BaseMoDule):
     def __init__(self, opt):
         BaseMoDule.__init__(self, opt)
-        self.model_names = ['G','D','D2','E']
         self.G_Net = networks.Dense_Generator()
         self.D_Net = networks.Patch_Discriminator()
         self.D_Net2 = networks.Patch_Discriminator()
