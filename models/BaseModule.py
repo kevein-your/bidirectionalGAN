@@ -1,7 +1,7 @@
 import torch as t
 from torch import nn
 
-class BasicMoDule(nn.Module):
+class BaseMoDule(nn.Module):
     def __init__(self, opt):
         nn.Module.__init__(self)
         self.opt = opt
